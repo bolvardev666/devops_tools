@@ -7,10 +7,10 @@ from contextlib import asynccontextmanager
 
 class SSHClient:
     def __init__(self):
-        self.host = '129.211.12.97'
+        self.host = '1.1.1.1'
         self.port = 22
         self.user = 'root'
-        self.password = 'E7XpWI4/NeAWxjJcGKxcihgemabPYhkhZjsuWdHU0u9dTz3HZUGdb5Y7PzzwNpvw'
+        self.password = ''
 
     @asynccontextmanager
     async def connect_ssh(self):
